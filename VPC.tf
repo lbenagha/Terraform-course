@@ -50,7 +50,7 @@ resource "aws_subnet" "main-private-1" {
   availability_zone = "us-east-1a"
 
   tags = {
-    Name = "Main-public-1"
+    Name = "Main-private-1"
   }
 }
 resource "aws_subnet" "main-private-2" {
@@ -60,7 +60,7 @@ resource "aws_subnet" "main-private-2" {
   availability_zone = "us-east-1b"
 
   tags = {
-    Name = "Main-public-2"
+    Name = "Main-private-2"
   }
 }
 resource "aws_subnet" "main-private-3" {
@@ -70,7 +70,7 @@ resource "aws_subnet" "main-private-3" {
   availability_zone = "us-east-1a"
 
   tags = {
-    Name = "Main-public-3"
+    Name = "Main-private-3"
   }
 }
 
